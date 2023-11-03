@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+.caixa01{
+    height: 50px;
+    width: 50%;
+    float: left;
+    background-color: red;
+}
+
+.caixa02{
+    height: 50px;
+    width: 50%;
+    float: left;
+    background-color: yellow;
+}
+
+.caixa03{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+.menu{
+    height: 30px;
+    width: 100%;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}

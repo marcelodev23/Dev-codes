@@ -1,0 +1,31 @@
+body{
+    margin-top: 0px;
+    margin-left: 5%;
+}
+.top{
+    width: 100%;
+    height: 30px;
+}
+h1{
+    text-align: center;
+}
+
+.centro{
+    height: 500px;
+    width: 100%;
+}
+img{
+    height: 150px;
+    width: 300px;
+}
+
+.card1,.card2{
+    float: left;
+    margin-right: 1%;
+}
+a{
+    display: block;
+}
+p{
+    text-align: center;
+}

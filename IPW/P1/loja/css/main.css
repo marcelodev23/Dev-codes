@@ -1,0 +1,18 @@
+:root{
+    --tamanho_height:60px;
+}
+
+.menu{
+    height: var(--tamanho_height);
+    width: 100%;
+}
+.logo{
+    height: var(--tamanho_height);
+    width: 15%;
+    float: left; 
+}
+.menu02{
+    height: var(--tamanho_height);
+    width: 85%;
+    float: left; 
+}

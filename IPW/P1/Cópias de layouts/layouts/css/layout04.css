@@ -1,0 +1,63 @@
+
+
+.top{
+    width: 100%;
+    height: 60px;
+}
+.caixa_top_1{
+    width: 14.5%;
+    height: 60px;
+    margin-right: 0.5%;
+    float: left;
+    background-color: black;
+}
+
+p{
+    text-align: center;
+}
+.text{color: white;}
+.caixa_top_2{
+    width: 85%;
+    height: 60px;
+    margin-bottom: 10px;
+    float: left;
+    background-color: pink;
+}
+.centro{
+    height: 480px;
+    width: 100%;
+}
+.centro1,.centro2,.centro3,.centro4{
+    height: 480px;
+    width: 24.5%;
+    float: left;
+    margin-right: 0.5%;
+}
+
+.centro1_d1,.centro1_d2,.centro1_d3{
+    width: 100%;
+    height: 32%;
+    float: left;
+}
+.centro1_d2{
+    background-color: orange;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.caixa1,.caixa2{
+    width: 49%;
+    height: 100%;
+    float: left;
+    background-color: rgb(241, 160, 78);
+}
+.caixa1{
+    margin-right: 2%;
+}
+.pe{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    display: block;
+    background-color: green;
+}

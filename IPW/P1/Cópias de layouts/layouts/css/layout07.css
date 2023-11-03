@@ -1,0 +1,34 @@
+.top{
+    width: 100%;
+    height: 60px;
+}
+.top_rly{
+    height: 60px;
+    width: 100%;
+    background-color: pink;
+}
+
+.centro{
+    height: 550px;
+    width: 100%;
+}
+.centro1,.centro2{
+    width: 50%;
+    height: 550px;
+    float: left;
+    
+}
+.centro1{
+    background-color: red;
+}
+.centro2{
+    background-color: orange;
+}
+.pe{
+    width: 100%;
+    height: 30px;
+    background-color: green;
+    display: inline-block;
+}
+
+p{text-align: center;}

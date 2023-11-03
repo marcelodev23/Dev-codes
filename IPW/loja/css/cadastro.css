@@ -1,0 +1,79 @@
+.main_container{
+    height: 100%;
+    width: 100%;
+}
+.menu_container{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+.menu{
+    text-align: center;
+    color: white;
+    display: flex;
+    margin-right: 2%;
+    border-radius: 50px;
+}
+#munu1{
+    flex-grow: 1;
+}
+#munu2{
+    flex-grow: 10;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    width: 50%;
+    height: 80px;
+    background-color: cornflowerblue;
+    border-radius: 40px;
+    margin-left: 25%;
+}
+
+label{
+    display: block;
+    color: black;
+}
+.cadastro_container{
+    height: 50%;
+    margin-left: 25%;
+}
+.form_input{
+    width: 100px;
+    display: block;
+    margin: 0px;
+}
+
+.form1,.form2{
+    width: 100px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.form3{
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin-left: 44%;
+    margin-top: 300px;
+
+    
+}
+input,button{
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    margin-left: 12%;
+}
+a{
+    margin-left: 38%;
+    margin-top: 0px;
+    align-items: center;
+}

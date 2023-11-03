@@ -1,0 +1,11 @@
+input{
+    display: block;
+}
+
+form{
+    border: solid 2px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 25%;
+    background-color: white;
+}
