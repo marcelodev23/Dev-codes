@@ -47,3 +47,80 @@ def Questao_03():
     print(Vetor_original)
     print(Vetor_manipulado)    
 
+def Questao04():
+    #Dada uma lista de números, utilize map() com uma função lambda para criar uma nova lista onde cada número é multiplicado por 2, mas apenas se for maior que 5
+  numeros = [22,54,66,323,44,32]
+  multiplicado = lambda i: i*2 if i >= 5 else i
+  print(list(map(multiplicado,numeros)))
+
+
+def Questao05():
+    #Crie uma lista de quadrados dos números de 1 a 10 usando list comprehension.
+    lista = [i for i in range(1,11)]
+    for i in lista:
+        print(f'{i**2}',end=' ')
+
+def Questao06():
+    '''Faça um programa que converta uma lista de temperaturas de Fahrenheit para Celsius, 
+       em seu programa o usuário deverá inserir uma sequência de valores que representam a temperatura em graus Fahrenheit, 
+       seu programa deve receber esses valores e armazenar em uma lista até que o valor inserido pelo usuário seja um valor em branco (uma string vazia).
+       Converta todos os valores presentes na lista para graus Celsius usando a função map e imprima na tela em uma formatação amigável ao usuário.'''
+    lista_temperaturas_Fahrenheit=[]
+    lista_temperaturas_Celsius=[]
+    dado= input('Digite temperatura(Fahrenheit): ')
+    while(dado!=''):
+        dado= input('Digite temperatura(Fahrenheit): ')
+        if dado != '':
+            lista_temperaturas_Fahrenheit.append(float(dado))
+
+    def converte(temperatura):
+        return (temperatura-32)/1.8
+    
+    lista_temperaturas_Celsius = list(map(converte,lista_temperaturas_Fahrenheit))
+    print('-'*30)
+    print('Temperaturas de Fahrenheit')
+    for Fahrenheit in lista_temperaturas_Fahrenheit:
+        print(f'{Fahrenheit}°F',end=' ')
+    print()
+    print('-'*30)
+    print('Temperaturas de Celsius')
+    for Celsius in lista_temperaturas_Celsius:
+        print(f'{Celsius:.2f}°C',end = ' ')
+    print()
+    print('-'*30)
+    
+def Questao07():
+    '''A partir do dicionário de nomes e idades de pessoas a seguir, 
+       faça um programa que imprima em ordem a partir dos nomes das pessoas, 
+       mostre a soma das idades, a média das idades e a pessoa mais velha.'''
+    people = {
+        "Rafael": 41,
+        "Anne": 28,
+        "Jen": 32,
+        "Satan": 2000000,
+        "Frank": 12,
+        "Sally": 19,
+        "Bob": 42,
+        "Sue": 21,
+        "Jill": 32,
+        "Jack": 32,
+    }
+    nomes = []
+    soma = 0
+    maior = 0
+    for i in people.keys():
+        nomes.append(i)
+    for i in people.values():
+        soma+=i
+        if i > maior:
+            maior = i 
+    nomes.sort()        
+    print('-'*35)
+    print(f'A soma de todas as idades: {soma}')
+    print(f'A média de todas as idades: {soma/len(people)}')
+    print(f'A pessoa mais velha : {maior}')
+    print('-'*35)
+    print('Nomes das pessoas: ')
+    for nome in nomes:
+        print(nome)
+
